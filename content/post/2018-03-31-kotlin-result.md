@@ -13,6 +13,12 @@ Something similar can be done in Kotlin.
 
 <!--more-->
 
+>
+> Sources are [here](https://gist.github.com/sorokod/1d45d03d8e25700873edf8c1e4ca8b8c).
+>
+
+
+
 ### Ok - Err
 
 In Rust, functions may return a `result` type that can be handled with `match`:
@@ -138,3 +144,4 @@ v =  Err().expect("expected: a result") // IllegalStateException: expected a res
 v = Some("a result").expect("expected: a result") // v has the value "a result"
 
 {{</ highlight>}}
+
