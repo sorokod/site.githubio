@@ -4,10 +4,8 @@ title = "magpie"
 theme = "beautifulhugo"
 
 metaDataFormat = "yaml"
-pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
 
 publishDir = "../sorokod.github.io"
 

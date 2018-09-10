@@ -84,13 +84,14 @@ _**Elster**_: Wait, if in `Function[n]` - n has to be less than 23, what happens
 define a function with 23 parameters?
 
 _**Pica**_: Let's see
-
-    fun f23(p1:Int,.., p23:Int) = ""
+```kotlin
+fun f23(p1:Int,.., p23:Int) = ""
+```
 
 a call to `::f23` results in a runtime exception:
-    
-    java.lang.NoClassDefFoundError: kotlin/Function23      
-
+```kotlin
+java.lang.NoClassDefFoundError: kotlin/Function23      
+```
 This is in Kotlin v. 1.2.60 - there is a development goal to [_Get rid of 23 hardwired physical function classes_](https://github.com/JetBrains/kotlin/blob/1.3-M2/spec-docs/function-types.md).
 
 _**Elster**_: hmm... ok, this nice and all but what is the point of this exercise?
