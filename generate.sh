@@ -3,7 +3,7 @@
 
 SRC_DIR=.
 DST_DIR=../sorokod.github.io
-TMP_DIR=`mktemp -d`
+TMP_DIR=../tmp
 
 LOG=./hugo.log
 
@@ -20,5 +20,5 @@ fi
 echo -e "\033[0;32m### Cleaning up\033[0m"
 
 
-rm -rf $TEMP
+rm -rf $TEMP/*
 

@@ -9,7 +9,7 @@ tags: ["kotlin", "collections", "api"]
 After one time too many stumbling over a forgotten/unknown function in Kotlin's "collection" API, I decided to take stock 
 of what's available.  
 
-**TLDR** - it's pretty large.
+**TLDR** - That API is pretty large.
   
 
 <!--more-->
