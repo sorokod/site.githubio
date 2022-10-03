@@ -7,6 +7,10 @@ metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 
+
+enableInlineShortcodes = true
+
+
 publishDir = "../sorokod.github.io"
 
 [Params]
