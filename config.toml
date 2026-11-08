@@ -1,12 +1,9 @@
 baseURL = "https://sorokod.github.io/"
-languageCode = "en-us"
+locale = "en-us"
 title = "magpie"
 theme = "beautifulhugo"
 
 metaDataFormat = "yaml"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-
 
 enableInlineShortcodes = true
 
@@ -17,10 +14,14 @@ publishDir = "../sorokod.github.io"
   subtitle = "scavenger of shiny things"
   logo = "img/magpie.png"
 
-
-[Author]
+[Params.author]
   name = "David Soroko"
   stackoverflow = "users/239101/david-soroko"
+
+# Classes, not inline styles, so assets/css/syntax.css (GitHub style) applies.
+[markup.highlight]
+  noClasses = false
+  guessSyntax = true
 
 [[menu.main]]
     name = "Blog"
