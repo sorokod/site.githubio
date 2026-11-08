@@ -1,5 +1,5 @@
 ---
 title: about me
-subtitle: software engineer - team lead - Berlin 
+subtitle: "Software engineer ▶ Team Lead ▶ Engineering Manager :: Berlin"
 comments: false
 ---
